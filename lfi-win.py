@@ -80,7 +80,7 @@ for location in loc:
         r = requests.get(url+de+location, cookie = cookies, headers = headers)
 
     if(c == ""):
-        r = requests.get(url+de+location)
+        r = requests.get(url+de+location, headers = headers)
     resp = r.status_code
     if(resp == 200):
         s = location.replace("/", "-")
