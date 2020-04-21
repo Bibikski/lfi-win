@@ -1,6 +1,7 @@
 # lfi-win
 Local File Inclusion for windows. This script will grab important files and databases and outputs them. 
 Website: https://www.bibikski.com
+Twitter: https://www.twitter.com/bibikdev
 
 The location of files array is not created by me, but was copied from this website
 https://gracefulsecurity.com/path-traversal-cheat-sheet-windows/
